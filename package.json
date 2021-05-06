@@ -35,6 +35,7 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsdoc": "^33.1.0",
     "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-vue": "^7.9.0",
     "less": "^4.1.1",
     "less-loader": "^8.1.1",
@@ -48,7 +49,7 @@
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,jsx,vue}": [
+    "*.{js,tsx,ts,jsx,vue}": [
       "vue-cli-service lint",
       "git add"
     ]
