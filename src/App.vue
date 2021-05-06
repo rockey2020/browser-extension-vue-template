@@ -10,11 +10,13 @@
 export default {
   name: "App",
   created() {
-    var a = [1, { name: 1 }];
-    var test = function () {
+    let b, z;
+    let a = [1, { name: 1 }];
+
+    let test = function () {
       return a;
     };
-    var namespaceA = 1;
+    let namespaceA = 1;
     console.log(a);
   },
 };
