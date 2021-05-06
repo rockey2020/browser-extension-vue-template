@@ -9,16 +9,6 @@
 <script>
 export default {
   name: "App",
-  created() {
-    let b, z;
-    let a = [1, { name: 1 }];
-
-    let test = function () {
-      return a;
-    };
-    let namespaceA = 1;
-    console.log(a);
-  },
 };
 </script>
 <style lang="less">
