@@ -7,9 +7,7 @@ function importAllRoutes(r) {
   return r.keys().map((key) => r(key).default);
 }
 
-const IndexChildrenRoutes = importAllRoutes(
-  require.context("../views/", true, /router\.js$/)
-);
+const IndexChildrenRoutes = importAllRoutes(require.context("../views/", true, /router\.js$/));
 
 const routes = [
   {
